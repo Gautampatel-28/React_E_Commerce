@@ -100,7 +100,7 @@
     display: flex;
     margin-top: 10px;
 }
-.header .last_header .user_profile .icon
+.header .last_header .user_profile .info .icon
 {
     padding: 10px 10px;
     background: #fff;
@@ -109,7 +109,13 @@
 .header .last_header .user_profile .info
 {
     margin-left: 10px;
+    
 }
+
+.header .last_header .user_profile marquee{
+    animation: marquee 5s linear infinite;
+}
+
 .header .last_header .user_profile .info h2
 {
     color: #fff;

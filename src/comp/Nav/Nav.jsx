@@ -1,4 +1,3 @@
-import React from 'react'
 import "./Nav.css";
 import { MdLocalShipping } from "react-icons/md";
 import { AiOutlineSearch } from "react-icons/ai";
@@ -14,12 +13,9 @@ const Nav = ({search, setSearch, searchproduct}) => {
     <>
         <div className='header'>
             <div className='top_header'>
-                <div className='icon'>
-                <MdLocalShipping />
-                </div>
-                <div className='info'>
-                    <p>Free Shipping When Shopping upto ₹1000/-</p>
-                </div>
+                <marquee className='info'>
+                    <p><span className="icon"><MdLocalShipping /></span> Free Shipping When Shopping upto ₹300/-</p>
+                </marquee>
             </div>
             <div className="mid_header"> 
               <div className="logo">
