@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import "../Cart/Cart.css";
 import { Link } from 'react-router-dom';
 import { AiOutlineClose } from 'react-icons/ai';
